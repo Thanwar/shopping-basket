@@ -1,0 +1,10 @@
+.container {
+    background-color: #E5383B;
+    color: whitesmoke;
+    padding: 10px 0;
+}
+
+.container p {
+    font-size: 20px;
+    padding-left: 30px;
+}

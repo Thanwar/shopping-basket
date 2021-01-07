@@ -1,0 +1,33 @@
+.container {
+    background: black;
+    padding: 3%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.container button {
+    cursor: pointer;
+    background: #E5383B;
+    width: 175px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin: 10px 0 0;
+    font-size: 1rem;
+    transition: all linear 250ms;
+}
+.container button:hover {
+    transform: scale(1.05);
+    background-color: #B1A7A6;
+}
