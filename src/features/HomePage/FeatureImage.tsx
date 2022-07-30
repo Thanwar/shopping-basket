@@ -18,7 +18,7 @@ export const FeatureImage: React.FC<{}> = () => {
     // })
     return (
         <div className={styles.featureImage}>
-            <h2 className={styles.greeting}>Welcome to My Shoe Store</h2>
+            <h2 className={styles.greeting}>Welcome to Brandatron</h2>
             <img 
                 src={shoeImg}
                 className={styles.featureShoe}
