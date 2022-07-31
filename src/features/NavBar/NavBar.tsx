@@ -13,7 +13,7 @@ export const NavBar: React.FC<{}> = () => {
         <div className={styles.container}>
             <h1 className={styles.logo}>
                 <Link to="./" data-testid="logo-navlink">
-                    Shoes Land
+                    Brandatron
                 </Link>
             </h1>
             <label htmlFor="checkbox" className={styles.menuBtnWrapper}>
@@ -46,9 +46,14 @@ export const NavBar: React.FC<{}> = () => {
                         {<GiHighHeel />} Women
                     </button>
                 </NavLink>
-                <NavLink to="./kids" activeClassName={styles.activeLink}>
+                {/* <NavLink to="./kids" activeClassName={styles.activeLink}>
                     <button data-testid="kids-navlink" className={styles.link}>
                         {<GiRunningShoe />} Kids
+                    </button>
+                </NavLink> */}
+                <NavLink to="./sellForm" activeClassName={styles.activeLink}>
+                    <button className={styles.link}>
+                        {<GiRunningShoe />} Sell
                     </button>
                 </NavLink>
                 <NavLink to="./cart" activeClassName={styles.activeLink}>

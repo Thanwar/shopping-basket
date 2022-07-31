@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route, Outlet } from 'react-router-dom';
-import { NavBar, HomePage, Footer, ProductsIndex, Cart, ProductDetails, Checkout } from '../';
+import { NavBar, HomePage, Footer, ProductsIndex, Cart, ProductDetails, Checkout, SellForm } from '../';
 
 export const App: React.FC<{}> = () => {
   return (
@@ -9,6 +9,7 @@ export const App: React.FC<{}> = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="cart" element={<Cart />} />
+        <Route path="sellForm" element={<SellForm />} />
         <Route path="cart/checkout" element={<Checkout />} />
         <Route path=":category" element={<Outlet />}>
           <Route path="/" element={<ProductsIndex />} />
