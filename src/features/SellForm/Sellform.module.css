@@ -2,14 +2,19 @@
     background-color: #9a8a84;
     color: rgb(255, 255, 255);
     padding: 10px;
-    margin-top: 20px;
     text-align: center;
 }
+
+.bigcontainer{
+    background-color: #000000;
+    min-height: 110vh;
+}
+
 
 .submitform
 {
     background-color: #cbb9c2;
-    margin: 100px;
+    margin: 0px 100px 20px 100px;
     padding: 50px;
     text-align: left;
 }

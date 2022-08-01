@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import { FaHome, FaShoppingCart } from 'react-icons/fa';
-import { GiRunningShoe, GiHighHeel } from 'react-icons/gi';
+import { FaHome, FaShoppingCart, } from 'react-icons/fa';
+import { GiRunningShoe } from 'react-icons/gi';
+
 
 import classNames from 'classnames/bind';
 import styles from './NavBar.module.css';
@@ -43,7 +44,7 @@ export const NavBar: React.FC<{}> = () => {
                 </NavLink>
                 <NavLink to="./women" activeClassName={styles.activeLink}>
                     <button data-testid="women-navlink" className={styles.link}>
-                        {<GiHighHeel />} Women
+                        {<GiRunningShoe />} Women
                     </button>
                 </NavLink>
                 {/* <NavLink to="./kids" activeClassName={styles.activeLink}>

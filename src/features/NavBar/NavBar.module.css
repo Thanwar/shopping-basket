@@ -1,7 +1,7 @@
 :root {
     --primary-background-color: #cbb9c2;
     --primary-text-color: black;
-    font-style: var(--primary-text-color);
+    /* font-style: var(--primary-text-color); */
 }
 
 .container {
@@ -11,7 +11,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 1em;
+    padding: 5px 30px;
     color: var(--primary-text-color);
     position: relative;
     top: 0;
@@ -21,6 +21,8 @@
 
 .logo {
     user-select: none;
+    margin-bottom: 0px;
+    font-size: 35px;
 }
 
 .logo a {

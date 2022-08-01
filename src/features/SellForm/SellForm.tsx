@@ -9,11 +9,14 @@ export const SellForm: React.FC<{}> = () => {
 
 
     return (
-        <div >
-            <div className={styles.container}>
+        <div className={styles.bigcontainer}>
+            {/* <div className={styles.container}>
                 <h1>SELL FORM</h1>
-            </div>
+            </div> */}
             <div>
+                <br />
+                <br />
+
             <div className={styles.submitform}>
                 <h1>Let's get you started with your first sale!</h1>
                 <label>Name: </label>

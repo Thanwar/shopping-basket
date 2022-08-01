@@ -1,7 +1,7 @@
 .container {
     background: black;
     padding: 3%;
-    min-height: 80vh;
+    min-height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +18,7 @@
 
 .container button {
     cursor: pointer;
-    background: #E5383B;
+    background: #cbb9c2;
     width: 175px;
     height: 40px;
     border: none;
@@ -29,5 +29,5 @@
 }
 .container button:hover {
     transform: scale(1.05);
-    background-color: #B1A7A6;
+    background-color: #746d6c;
 }
