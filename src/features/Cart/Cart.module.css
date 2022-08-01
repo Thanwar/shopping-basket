@@ -45,12 +45,14 @@
 }
 .checkout:hover {
     transform: scale(1.05);
-    background-color: #E5383B;
+    background-color: #cbb9c2;
+    color: black;
 }
 .checkout:disabled {
     cursor: not-allowed;
 }
 .checkout:disabled:hover {
     transform: scale(1);
-    background-color: #E5383B;
+    background-color: #cbb9c2;
+    color: black;
 }

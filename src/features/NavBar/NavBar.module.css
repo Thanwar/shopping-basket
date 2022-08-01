@@ -1,6 +1,7 @@
 :root {
-    --primary-background-color: #E5383B;
-    --primary-text-color: white;
+    --primary-background-color: #cbb9c2;
+    --primary-text-color: black;
+    font-style: var(--primary-text-color);
 }
 
 .container {

@@ -77,7 +77,7 @@
     transition: all linear 250ms;
 }
 .addToCart {
-    background: #E5383B;
+    background: #cbb9c2;
 }
 .goToCart {
     background: #B1A7A6;
@@ -86,10 +86,10 @@
     transform: scale(1.05);
 }
 .addToCart:hover {
-    background-color: #F5F3F4;
+    background-color: black;
 }
 .goToCart:hover {
-    background-color: #F5F3F4;
+    background-color: black;
 }
 
 
