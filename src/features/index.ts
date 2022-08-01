@@ -8,3 +8,5 @@ export { ProductDetails } from './ProductDetails/ProductDetails';
 export { Checkout } from './Checkout/Checkout';
 export { Notification } from './Notification/Notification';
 export { SellForm } from './SellForm/SellForm';
+export { Submit } from './submit/submit';
+
