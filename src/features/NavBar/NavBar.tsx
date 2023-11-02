@@ -14,7 +14,7 @@ export const NavBar: React.FC<{}> = () => {
         <div className={styles.container}>
             <h1 className={styles.logo}>
                 <Link to="./" data-testid="logo-navlink">
-                    Brandatron 2
+                    Brandatron Test
                 </Link>
             </h1>
             <label htmlFor="checkbox" className={styles.menuBtnWrapper}>
